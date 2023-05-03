@@ -1,0 +1,66 @@
+/*Các định dạng cho Login.html*/
+
+/*Chèn xử lý định dạng cho các thẻ trong html*/
+@import url('basic.css');
+
+.loginview{
+		width: 450px; /*Độ rộng*/
+		height: auto; /*Độ cao*/
+		/*border-width: 2px; /*Độ rộng đường viền*/
+		/*border-style: solid; /*Kiểu nét liền*/
+		/*border-color: blue; /*Màu đường viền*/
+		
+		border: 0px solid #888; /*Gộp của dòng 9, 10, 11*/
+		
+		/*Căn giữa hình chữ nhật*/
+		
+		/*margin-left: auto;
+		margin-right: auto;*/
+		
+		margin: 0 auto; /*Gộp của dòng 17, 18*/
+		background: #fafaff;/*Màu nền*/
+		box-shadow: 5px 5px 20px #888;/*Đổ bóng, tạo độ đổ là 5,5, bán kính 20px*/
+		border-radius: 5px;/*Bo góc hình chữ nhật bán kính 5px*/
+		
+}
+
+/************************TABLE**********************/
+
+#loginview table{
+		width: 100%;
+}
+#loginview table th, #loginview table td{
+		padding: 10px 5px;
+}
+#loginview table th{
+	background: #888;
+	color: #fff;
+	text-transform: upercase; /*Viết hoa chuỗi văn bản*/
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+/*************************FORM************************/
+#loginview input{
+	padding: 10px 3px;
+	border: 0px;
+	box-shadow:3px 3px 10px #88f;
+	border-radius: 2px;
+}
+#loginview input:focus{
+	border: 0px solid #88f;
+}
+
+/*************************A*****************/
+#loginview a{
+	text-decoration: none; /*Bỏ gạch chân ngầm định của liên kết*/
+}
+#loginview a:hover{
+	color: #666;
+}
+
+/*************************OTHER*****************/
+.left_column{
+	text-align: right; /*Căn lề phải văn bản*/
+	font-weight: bold; /* Địng dạng đậm văn bản*/
+}

@@ -1,0 +1,56 @@
+.img2{
+    width: 600px;
+    height: 100px;
+    margin: 8px 2px 2px 8px;
+    padding-left: 460px;
+    display: inline;
+}
+
+.content {
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    display: block;
+    margin-bottom: 25px;
+}
+.content_contain {
+    margin-bottom: 25px;
+    display: block;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+}
+.taskbar {
+    width: 1024;
+    height: 40px;
+    background-color: rgb(185, 53, 53);
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.taskbar1 {
+    width: 1024;
+    height: 40px;
+    background-color: rgb(185, 53, 53);
+    line-height: 40px;
+}
+.name_task {
+    margin-left: 10px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.box {
+    display: inline-block;
+    border: 1px none;
+    margin: 0;
+    padding: 0px;
+}
+.sanpham:hover .box {
+    border-color: rgb(185, 53, 53);
+}
+.anh2 {
+    margin-bottom: 20px;
+}
+.price_sp {
+    margin-top: 5px;
+    color: rgb(24, 24, 24);
+}

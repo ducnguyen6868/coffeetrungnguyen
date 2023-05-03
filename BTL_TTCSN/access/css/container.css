@@ -1,0 +1,93 @@
+#wapper {
+    padding: 40px 0;
+}
+
+#wapper .directory {
+    font-size: 3.8rem;
+    margin-bottom: 30px;
+}
+
+#wapper .path {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#wapper .path::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#wapper .path li {
+    text-transform: uppercase;
+    padding: 0 20px;
+    position: relative;
+}
+
+
+#wapper .path li:first-child {
+    padding-left: 0; 
+}
+
+#wapper .path .slash::after {
+    content: "/";
+    display: block;
+    float: left;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+
+
+#wapper .container{
+    position: relative;
+}
+
+#wapper .container .search_products {
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#wapper .container .search_products .input_icon {
+    border: 1px solid #888;
+    
+}
+
+#wapper .container .search_products .input_icon::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#wapper .container .search_products span {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #888;
+    margin-bottom: 15px;
+    display: block;
+}
+
+#wapper .container .search_products input {
+    border: 0;
+    outline: none;
+    padding: 10px 0 0 10px;
+}
+
+#wapper .container .search_products button {
+    border: 0;
+    background-color: #fff;
+    float: right;
+}
+
+#wapper .container .search_products button:hover {
+    cursor: pointer;
+}
+
+#wapper .container .search_products .button {
+    padding: 10px;
+}

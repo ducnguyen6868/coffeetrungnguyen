@@ -1,0 +1,112 @@
+
+#footer {
+position: relative;
+}
+
+#footer .row1 {
+    background-color: #9a3012;
+    margin-bottom: 30px;
+}
+
+#footer .row1::after,
+#footer .row2 .contact-item::after,
+#footer .row2::after,
+#footer .channal:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#footer .row1 .item {
+    width: 25%;
+    padding: 25PX;
+    color: #fff;
+    border-right: 1px solid #ccc;
+}
+
+#footer .row1 .item .f-text {
+    line-height: 20px;
+}
+
+#footer .row1 .item .icon {
+    font-size: 2.4rem;
+    line-height: 40px;
+    margin-right: 15px;
+    min-height: 80px;
+}
+
+#footer .row1 .item .title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#footer .row1 .item .text {
+    color: #ffc2c4;
+}
+
+/* row2 css */
+
+#footer .row2 .item {
+    width: 33.33333%;
+    padding: 0 15px;
+    color: #555;
+}
+
+#footer .row2 .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#footer .row2 .icon {
+    min-height: 30px;
+    min-width: 30px;
+}
+
+#footer .row2 .info {
+    margin-bottom: 20px;
+}
+
+#footer .row2 .item ul,
+#footer .channal {
+    list-style: none;
+}
+
+#footer .row2 .item li {
+    margin-bottom: 6px;
+}
+
+#footer .row2 .item a {
+    text-decoration: none;
+    color: #555; 
+}
+
+#footer .row2 .item a:hover {
+    color: #9a3012
+}
+
+#footer .channal {
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 50px;
+}
+
+
+#footer .channal a {
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    display: block;
+    font-size: 1.6rem;
+    border: 1px solid #ccc;
+    margin: 0px 10px 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: #000;
+}
+
+#footer .channal a:hover {
+    background-color: #9a3012;
+    color: #fff;
+}

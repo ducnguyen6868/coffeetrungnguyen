@@ -1,0 +1,36 @@
+#wapper .content {
+    width: 80%;
+}
+
+#wapper .content label {
+    font-size: 1.6rem;
+}
+
+#wapper .content form>input {
+    width: 80%;
+    padding: 15px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#checkbox {
+   width: 15px;
+   height: 15px;
+   margin-bottom: 15px;
+}
+
+#wapper .content a {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 15px;
+    display: block;
+}
+
+#wapper .content button {
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #9a3012;  
+    color: #fff;
+    border: 0;
+    margin-bottom: 30px;
+}

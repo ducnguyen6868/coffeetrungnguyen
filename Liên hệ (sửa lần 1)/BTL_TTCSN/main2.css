@@ -1,0 +1,101 @@
+
+.img2{
+    width: 600px;
+    height: 100px;
+    margin: 8px 2px 2px 8px;
+    padding-left: 460px;
+    display: inline;
+}
+
+.content {
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    display: block;
+    margin-bottom: 25px;
+    border: 1px solid rgb(217, 217, 218);
+}
+.content_contain {
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    margin-bottom: 25px;
+    display: block;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+}
+.taskbar {
+    width: 1024;
+    height: 40px;
+    background-color: rgb(185, 53, 53);
+    line-height: 40px;
+}
+.taskbar1 {
+    width: 1024;
+    height: 40px;
+    background-color: rgb(185, 53, 53);
+    line-height: 40px;
+}
+.name_task {
+    margin-left: 10px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.box1 {
+    display: inline-block;
+    width: 290px;
+    margin-top: 1px;
+    padding-top: 15px;
+    border: 1px solid rgb(185, 53, 53);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.box {
+    display: inline-block;
+    width: 290px;
+    margin-top: 1px;
+    margin-left: 9px;
+    padding-top: 15px;
+    border: 1px solid rgb(185, 53, 53);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.sanpham {
+    width: 1200px;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+.sanpham:hover .box {
+    border-color: rgb(185, 53, 53);
+}
+
+.box1 .price_sp {
+    font-style: bold;
+    color: red;
+    font-weight: 600;
+}
+.box .price_sp {
+    font-style: bold;
+    color: red;
+    font-weight: 600;
+}
+.box_cc {
+    display: inline-block;
+    width: 236px;
+    margin-top: 1px;
+    padding-top: 15px;
+    border: 1px solid rgb(185, 53, 53);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.box_cc .price_sp{
+    font-style: bold;
+    color: red;
+    font-weight: 600;
+}
